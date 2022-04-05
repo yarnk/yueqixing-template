@@ -1,0 +1,44 @@
+.article-header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .left-col {
+    display: flex;
+
+    .avatar {
+      border-radius: 50%;
+      height: 80px;
+      width: 80px;
+    }
+
+    .text-col {
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px;
+
+      .nickname {
+
+      }
+
+      .date {
+        font-size: 24px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .right-col {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .flow-btn {
+    right: 20px;
+    width: 140px;
+    border: #f68a47 1px solid;
+    color: #ff7b1f;
+  }
+}

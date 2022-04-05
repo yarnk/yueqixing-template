@@ -1,0 +1,17 @@
+/* Custom Theme */
+$color-brand: #0e0e10;
+$color-brand-light: #4164a9;
+$color-brand-dark: #22232a;
+$at-tabs-underline-color: none;
+$at-tabs-line-height: 6px;
+@import "~taro-ui/dist/style/index.scss";
+
+.at-tabs__item-underline{
+  text-align: center;
+  left: calc(50% - 20px);
+  width: 40px;
+  border-radius: 20px;
+}
+.at-tabs__item--active{
+  font-weight: 600;
+}

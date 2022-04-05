@@ -1,0 +1,57 @@
+.split-line {
+  height: 20px;
+}
+
+.layout-my {
+   background: rgb(231, 231, 231);
+  .header-my {
+    position: relative;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    padding: 0 25px 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .avatar-my {
+      height: 148px;
+      width: 148px;
+      border-radius: 50%;
+    }
+    .nickname {
+      max-width: 200px;
+      overflow: hidden;
+      font-weight: 700;
+      font-size: 36px;
+      margin-top: 10px;
+      white-space: nowrap;
+      text-align: left;
+      text-overflow: ellipsis;
+    }
+  }
+  .vip {
+    width: calc(100% - 50px);
+    height: 70px;
+    box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, .2);
+    position: absolute;
+    background-color: #22232a;
+    bottom: 0;
+    // left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // width: 94%;
+    // height: 40px;
+    color: #fff;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+    padding: 0 20px;
+    font-size: 24px;
+  }
+
+  .container {
+    padding: 0 25px;
+  }
+}

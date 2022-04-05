@@ -1,0 +1,18 @@
+.article-item {
+  margin: 20px auto 30px;
+  padding-bottom: 30px;
+  .article-body {
+    padding: 0 20px;
+  }
+  .location-tag{
+    margin: 20px 20px 0 20px;
+    .tag-content{
+      display: flex;
+      align-items: center;
+    }
+  }
+  .image {
+    margin-top: 10px;
+    width: 100%;
+  }
+}

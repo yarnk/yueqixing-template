@@ -1,0 +1,31 @@
+.user-tab-bar{
+  margin: 0 auto;
+  width: 95%;
+  background-color: #fff;
+  border: none;
+  padding: 20px 0;
+  border-radius: 12px;
+}
+.menu-list{
+  border-radius: 15px;
+  margin: 10px auto;
+  width: 95%;
+  padding: 20px;
+  .contact{
+    width: auto;
+    border: none;
+    .contact-btn{
+      width: 200px;
+      border: none;
+    }
+  }
+}
+
+.logout-btn{
+  border-radius: 15px;
+  background-color: #e72727;
+  border: none;
+  color: white;
+  margin:  40px 20px 0 20px;
+}
+

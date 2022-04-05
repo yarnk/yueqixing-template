@@ -1,0 +1,26 @@
+.article-footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: rgba(114, 114, 114, 0.48) 1px solid;
+
+  .left {
+    color: #777777;
+    font-size: 26px;
+  }
+
+  .right {
+    display: flex;
+    color: #555555;
+    font-size: 28px;
+
+    view {
+      margin-left: 20px;
+
+      text {
+        margin-right: 10px;
+      }
+    }
+  }
+}

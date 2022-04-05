@@ -1,0 +1,26 @@
+.article-content{
+  border: none;
+  padding: 40px 20px 20px 20px;
+}
+.article-location{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  .left-icon{
+    margin-right: 30px;
+  }
+  .right-icon{
+
+  }
+}
+.article-tag{
+  margin: 20px;
+  color: #ff7502;
+  background-color: #fdeee1;
+}
+.publish{
+  border:none;
+  background-color: #161e1e;
+  color: #ff7502;
+  margin: 40px 20px 20px 20px;
+}

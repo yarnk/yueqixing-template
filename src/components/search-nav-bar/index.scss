@@ -1,0 +1,11 @@
+.search-nav-bar{
+  z-index: 999;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  .nav-tabs{
+    background-color: #fff;
+    width: 70%;
+  }
+}

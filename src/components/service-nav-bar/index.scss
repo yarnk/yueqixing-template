@@ -1,0 +1,24 @@
+.service-nav-bar{
+  z-index: 999;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+
+  .nav-address{
+    display: flex;
+    align-items: center;
+    margin: 25px auto auto 20px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    height: 60px;
+    color: #5b5a5a;
+    border-radius: 70px;
+    background-color: #efefef;
+    text{
+      margin-right: 10px;
+    }
+  }
+
+
+}
